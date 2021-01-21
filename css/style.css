@@ -1,0 +1,26 @@
+body{
+    background-color: cornflowerblue;
+}
+div{
+    margin-top: 60px;
+    align-content: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+
+}
+ul.galeria li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+    border: 1px solid #dddddd;
+}
+ul.galeria li a img{
+    float: left;
+    width: 200px;
+}
+ul.galeria li a:hover img{
+    transform: scale(1.5);
+    box-shadow:4px 4px 10px crimson;
+}
